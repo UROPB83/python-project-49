@@ -5,7 +5,6 @@ MIN_NUM = 1
 MAX_NUM = 999
 
 
-
 def make_question_and_correct_answer():
     """Make question and generate correct answer for the game"""
     number = randint(MIN_NUM, MAX_NUM)
@@ -15,6 +14,3 @@ def make_question_and_correct_answer():
     else:
         correct_answer = 'no'
     return question, correct_answer
-
-
-    

@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-import prompt
+
+from brain_games.engine import run_game
+from brain_games.games import even
 
 
-def welcome_user():
-    name = prompt.string('May i have your name?')
-    print('Hello, ' + name)
-    return name
+def main():
+    run_game(even)
 
-if __name__ == '__main__':
+    if __name__ == '__main__':
         main()
-
