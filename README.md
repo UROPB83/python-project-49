@@ -3,3 +3,4 @@
 brain-even:https://asciinema.org/connect/bf52c79c-02de-4bc2-964d-966b57150c25
 brain-calc:https://asciinema.org/connect/bf52c79c-02de-4bc2-964d-966b57150c25 
 brain-gcd:https://asciinema.org/connect/bf52c79c-02de-4bc2-964d-966b57150c25
+brain-progression:https://asciinema.org/connect/bf52c79c-02de-4bc2-964d-966b57150c25
