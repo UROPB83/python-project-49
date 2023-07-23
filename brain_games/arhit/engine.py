@@ -1,7 +1,7 @@
 import prompt
 
 
-MAX_ROUND = 3
+MAX_SCORE = 3
 
 
 def run_game(game_name):
@@ -9,8 +9,8 @@ def run_game(game_name):
     user_name = prompt.string('May i have your name? ')
     print(f"Hello, {user_name}!")
     print(game_name.RULES)
-
-    for round_number in range(MAX_ROUND):
+    round_number = 1
+    while round_number <= MAX_SCORE:
         question, correct_answer = game_name.make_question_and_correct_answer()
         print(f"Question: {question}")
         user_answer = prompt.string('Your answer: ')
@@ -19,9 +19,9 @@ def run_game(game_name):
             print(f"'{user_answer}' is wrong answer ;(.")
             print(f"Correct answer was '{correct_answer}'.")
             print(f"let's try again, {user_name}!")
-            return
+            break
 
-        if (correct_answer == user_answer):
-            print('Correct!')
-
-    print(f"Congratulations, {user_name}!")
+        print('Correct!')
+        round_number += 1
+    else:
+        print(f"Congratulations, {user_name}!")
