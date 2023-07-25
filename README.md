@@ -5,4 +5,4 @@ brain-calc:https://asciinema.org/connect/bf52c79c-02de-4bc2-964d-966b57150c25
 brain-gcd:https://asciinema.org/connect/bf52c79c-02de-4bc2-964d-966b57150c25
 brain-progression:https://asciinema.org/connect/bf52c79c-02de-4bc2-964d-966b57150c25
 brain-prime:https://asciinema.org/connect/bf52c79c-02de-4bc2-964d-966b57150c25
-[![Maintainability](https://codeclimate.com/github/UROPB83/python-project-49badge.svg)](https://github.com/UROPB83/python-project-49/actions)
+![example workflow]https://github.com/UROPB83/python-project-49/actions/workflows/main.yml/badge.svg
