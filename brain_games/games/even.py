@@ -6,7 +6,6 @@ MAX_NUM = 999
 
 
 def make_question_and_correct_answer():
-    """Make question and generate correct answer for the game"""
     number = randint(MIN_NUM, MAX_NUM)
     question = str(number)
     if number % 2 == 0:
