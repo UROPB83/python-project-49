@@ -6,7 +6,7 @@ MAX_SCORE = 3
 
 def run_game(game_name):
     print('Welcome to the Brain Games!')
-    user_name = prompt.string('May i have your name? ')
+    user_name = prompt.string('May i have your name?')
     print(f"Hello, {user_name}!")
     print(game_name.RULES)
     round_number = 1
