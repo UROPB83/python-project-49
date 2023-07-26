@@ -9,8 +9,8 @@ def run_game(game_name):
     user_name = prompt.string('May i have your name?')
     print(f"Hello, {user_name}")
     print(game_name.RULES)
-    round_number = 1
-    while round_number <= MAX_SCORE:
+
+    for round_number in range(MAX_SCORE):
         question, correct_answer = game_name.make_question_and_correct_answer()
         print(f"Question: {question}")
         user_answer = prompt.string('Your answer: ')
@@ -19,9 +19,9 @@ def run_game(game_name):
             print(f"'{user_answer}' is wrong answer ;(.")
             print(f"Correct answer was '{correct_answer}'.")
             print(f"let's try again, {user_name}!")
-            break
+            return
 
-        print('Correct!')
-        round_number += 1
-    else:
+        if (correct_answer == user_answer):
+            print('Correct!')
+
         print(f"Congratulations, {user_name}!")
