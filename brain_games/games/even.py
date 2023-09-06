@@ -1,12 +1,10 @@
 from random import randint
 
 RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
-MIN_NUM = 1
-MAX_NUM = 999
 
 
 def make_question_and_correct_answer():
-    number = randint(MIN_NUM, MAX_NUM)
+    number = randint(1, 100)
     question = str(number)
     if number % 2 == 0:
         correct_answer = 'yes'

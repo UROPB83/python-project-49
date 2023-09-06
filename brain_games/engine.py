@@ -11,7 +11,7 @@ def run_game(game_name):
     print(game_name.RULES)
     round_number = 1
 
-    while round_number <= MAX_SCORE:
+    for round_number in range(MAX_SCORE):
         question, correct_answer = game_name.make_question_and_correct_answer()
         print(f"Question: {question}")
         user_answer = prompt.string('Your answer: ')
