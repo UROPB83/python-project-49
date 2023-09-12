@@ -13,4 +13,4 @@ def make_question_and_correct_answer():
 
     correct_answer = func(a, b)
     question = f"{a} {operator} {b}"
-    return question, str(correct_answer)
+    return question, correct_answer

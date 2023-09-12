@@ -4,26 +4,31 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/d811a7665f5c277b12cd/maintainability)](https://codeclimate.com/github/UROPB83/python-project-49/maintainability)
 
 
-                GAMES
+   ### Brain-games
+   
+   - Brain-calc - You should solve given expression and type correct answer
+   - Brain-even - You should answer is the shown number is even or not
+   - Brain-gcd - You should find the greatest common dividor
+   - Brain-prime - You should answer if the number is prime
+   - Brain-progression - Finding missing progression element
 
-    Brain-calc:
- 'You should solve given expression and type correct answer'
-    <a href="https://asciinema.org/a/wtHuT8XRNZaxzXs6ECTcDovzH" target="_blank"><img src="https://asciinema.org/a/wtHuT8XRNZaxzXs6ECTcDovzH.svg" /></a>
 
-    Brain-even:
-  'You should answer is the shown number is even or not'
-  <a href="https://asciinema.org/a/22OcmnXFtxlKOHqLfDRmfMVsU" target="_blank"><img src="https://asciinema.org/a/22OcmnXFtxlKOHqLfDRmfMVsU.svg" /></a>
 
-  Brain-gcd:
-  'You will be given two numbers and you should find the greatest common dividor'
+   ***Use a short command to play the game (brain-even ,brain-prime etc)***
+
+   Brain-calc
+   <a href="https://asciinema.org/a/wtHuT8XRNZaxzXs6ECTcDovzH" target="_blank"><img src="https://asciinema.org/a/wtHuT8XRNZaxzXs6ECTcDovzH.svg" /></a>
+
+   Brain-even
+   <a href="https://asciinema.org/a/22OcmnXFtxlKOHqLfDRmfMVsU" target="_blank"><img src="https://asciinema.org/a/22OcmnXFtxlKOHqLfDRmfMVsU.svg" /></a>
+
+    Brain-gcd
   <a href="https://asciinema.org/a/2lx8clr7Sh4mdoJDsXRQP0SS4" target="_blank"><img src="https://asciinema.org/a/2lx8clr7Sh4mdoJDsXRQP0SS4.svg" /></a>
 
-  Brain-prime:
-  'You will be given a number and you should answer if the number is prime'
+  Brain-prime
   <a href="https://asciinema.org/a/0OfoGTDPyW5mBxhY9Qil1rDIW" target="_blank"><img src="https://asciinema.org/a/0OfoGTDPyW5mBxhY9Qil1rDIW.svg" /></a>
 
 
-  Brain-progression:
-  'You will be shown a progression of digits with some missed element,you need to finish the progression'
+  Brain-progression
   <a href="https://asciinema.org/a/6wKxngvimY1ivr3YrySNaqntM" target="_blank"><img src="https://asciinema.org/a/6wKxngvimY1ivr3YrySNaqntM.svg" /></a>
     

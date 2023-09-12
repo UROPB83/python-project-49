@@ -1,18 +1,17 @@
 import prompt
 
 
-MAX_SCORE = 3
+MAX_ROUNDS = 3
 
 
-def run_game(game_name):
+def run(game):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print(f"Hello, {user_name}!")
-    print(game_name.RULES)
-    round_number = 1
+    print(game.RULES)
 
-    for round_number in range(MAX_SCORE):
-        question, correct_answer = game_name.make_question_and_correct_answer()
+    for round_number in range(MAX_ROUNDS):
+        question, correct_answer = game.make_question_and_correct_answer()
         print(f"Question: {question}")
         user_answer = prompt.string('Your answer: ')
 
