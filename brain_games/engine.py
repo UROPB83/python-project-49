@@ -10,7 +10,7 @@ def run(game):
     print(f"Hello, {user_name}!")
     print(game.RULES)
 
-    for round_number in range(MAX_ROUNDS):
+    for _ in range(MAX_ROUNDS):
         question, correct_answer = game.make_question_and_correct_answer()
         print(f"Question: {question}")
         user_answer = prompt.string('Your answer: ')
@@ -22,6 +22,5 @@ def run(game):
             break
 
         print('Correct!')
-        round_number += 1
     else:
         print(f"Congratulations, {user_name}!")
