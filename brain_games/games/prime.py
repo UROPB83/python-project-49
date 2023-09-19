@@ -22,4 +22,4 @@ def make_question_and_correct_answer():
     else:
         correct_answer = 'no'
 
-    return question, correct_answer
+    return str(question), str(correct_answer)
